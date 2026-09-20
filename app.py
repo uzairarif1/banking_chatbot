@@ -38,7 +38,7 @@ SUPPORTED_UPLOADS = ["pdf", "docx", "txt", "md"]
 
 DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 DEFAULT_RERANKER = "cross-encoder/ms-marco-MiniLM-L-6-v2"
-DEFAULT_GROQ_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_GROQ_MODEL = "openai/gpt-oss-120b"
 
 GOOGLE_SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
 
